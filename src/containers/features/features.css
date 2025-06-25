@@ -1,0 +1,28 @@
+.gpt3__features2 {
+  padding: 30px 10px;
+  text-align: center;
+  display: flex;
+}
+
+.gpt3__whatgpt3-feature {
+  flex-direction: column;
+  display: flex;
+}
+
+.gpt3__features-heading2 {
+  flex: 1;
+}
+
+.gpt3__features-heading2 p {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  color: var(--color-text);
+  padding: 15px 10px;
+}
+
+@media (max-width: 768px) {
+  .gpt3__features2 {
+    flex-direction: column;
+  }
+}
